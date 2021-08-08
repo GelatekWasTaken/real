@@ -1348,7 +1348,7 @@ combo = 1
 mouse.Button1Down:connect(function(key)
   if attack == false then
     attack = true
-    hum.WalkSpeed = 3.01
+    hum.WalkSpeed = 8
     if combo == 1 and wait2 == false then
       wait2 = true
 		for i = 0, 1.2, 0.1 do
