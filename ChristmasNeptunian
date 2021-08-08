@@ -1,10 +1,6 @@
 --Chrismas Scythe 
 --Converted By Recredile
 --Ando#9797
---[[
-Hat: https://www.roblox.com/catalog/4492451337/Christmas-Scythe
-Net Bypass to run: https://pastebin.com/raw/fXwQRn7f
-]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/real/main/Reanimate.lua"))()-- to do: 33.06, 118.7, -140.89 - orientation for swortd
 spawn(function()
