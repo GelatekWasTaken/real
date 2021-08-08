@@ -1,3 +1,4 @@
+
 local UIStyle = "Midnight" 
 --[[ Styles:    
     LightTheme
@@ -32,17 +33,22 @@ HATS:
 Dual Ultima:
 https://www.roblox.com/catalog/4820152700/Shadow-Blademasters-Blade
 https://www.roblox.com/catalog/4524991457/Blademasters-Blade
+
 Neptunian V (one of these):
 https://www.roblox.com/catalog/4794315940/Golden-Demonic-Greatsword
 https://www.roblox.com/catalog/4506945409/Corrupt-Demonic-Greatsword
 https://www.roblox.com/catalog/4458601937/Frozen-Demonic-Greatsword
 https://www.roblox.com/catalog/4315489767/Demonic-Greatsword
+
 Sniper/Carnage:
 https://www.roblox.com/catalog/5063578607/Cyberpunk-Sniper
+
 Yellow Lightning Blade:
 https://www.roblox.com/catalog/5644668053/Nebula-Sword
+
 Minigun:
 https://www.roblox.com/catalog/5154115297/Type-40-Juggernauts-Chain-Gun
+
 Gale Fighter/Sonic:
 Free
 ]]--
@@ -58,7 +64,7 @@ Section:NewButton("Krystal Dance", "pog", function()
 end)
 
 Section2:NewButton("Minigun", "5154115297 | REEEEEEE", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/real/main/Minigun"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GelatekWasTaken/real/main/AltMinigun"))()
 end)
 
 Section2:NewButton("Yellow Lightning Blade", "5644668053 | swing swing and fling.", function()
