@@ -12,7 +12,7 @@ local UIStyle = "Midnight"
 ]]--
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 
-local Window = Library.CreateLib("Gelatek Hub V1.2", UIStyle)
+local Window = Library.CreateLib("Gelatek Hub V1.25", UIStyle)
 local Tab = Window:NewTab("Home")
 local Tab2 = Window:NewTab("Scripts")
 local Tab3 = Window:NewTab("LocalPlayer")
