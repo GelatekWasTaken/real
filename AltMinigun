@@ -70,13 +70,11 @@ spawn(function()
 	end
 end)
 
-
 spawn(function()
 	while game:GetService("RunService").Heartbeat:Wait() do
 		hrp.Velocity = Vector3.new(40,40,40)
 	end
 end)
-
 
 plr:GetMouse().Button1Down:Connect(function()
 repeat wait() until shooting == true
