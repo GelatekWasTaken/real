@@ -23,7 +23,7 @@ spawn(function()
 while game:GetService("RunService").Heartbeat:Wait() do
 	bp.Position = game:GetService("Players").LocalPlayer.Character.Torso.Position
 end
-end)
+end)
 bp.D = 9999999
 bp.P = 999999999999999
 bp.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
