@@ -61,7 +61,7 @@ flinger.AngularVelocity = Vector3.new(100000,100000,100000)
 spawn(function()
 while game:GetService("RunService").Heartbeat:Wait() do
 bp.Position = hat.Position
-hrpz.Velocity = Vector3.new(-25.05,-25.05,-25.05)s
+hrpz.Velocity = Vector3.new(-25.05,-25.05,-25.05)
 end
 end)
 cam = game.Workspace.CurrentCamera
