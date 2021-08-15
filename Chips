@@ -7,6 +7,7 @@ setsimulationradius(999.9999)
 end
 end)
 
+warn("credits for mizt for loadlibrary stuff")
 loadstring(game:GetObjects("rbxassetid://5425999987")[1].Source)()
  
 local plr = game.Players.LocalPlayer
