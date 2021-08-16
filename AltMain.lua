@@ -208,10 +208,6 @@ Section5:NewButton("Minigun", "copy button", function()
     setclipboard("5154115297")
 end)
 
-Section5:NewButton("Minigun", "copy button", function()
-    setclipboard("4492451337")
-end)
-
 Section5:NewButton("Converted Abyss Eye", "copy button", function()
     setclipboard("4820152700")
 end)
