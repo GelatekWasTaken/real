@@ -48,7 +48,7 @@ end
 local bp = Instance.new("BodyPosition", hrpz)
 spawn(function()
 while game:GetService("RunService").Heartbeat:Wait() do
-bp.Position = game:GetService("Workspace").szkielet234["Right Arm"].Position
+bp.Position = ra.Position
 end
 end)
 bp.D = 9999999
