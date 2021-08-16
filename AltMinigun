@@ -97,7 +97,7 @@ coroutine.wrap(function()
 end)()
 
 Theme = Instance.new("Sound", Character)
-Theme.Volume = 10
+Theme.Volume = 0
 Theme.Looped = true
 Theme.TimePosition = 0
 Theme.PlaybackSpeed = 1
