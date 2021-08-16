@@ -5,7 +5,7 @@ setsimulationradius(999.9999)
 end
 end)
 
-wait(0.5)
+wait(0.1)
 Player = game:GetService("Players").LocalPlayer
 PlayerGui = Player.PlayerGui
 Cam = workspace.CurrentCamera
@@ -60,7 +60,7 @@ bp.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
 flinger = Instance.new("BodyAngularVelocity",hrp)
 flinger.MaxTorque = Vector3.new(math.huge,math.huge,math.huge)
 flinger.P = 1000000000000000000000000000
-flinger.AngularVelocity = Vector3.new(10000,10000,10000)
+flinger.AngularVelocity = Vector3.new(1e9,1e9,1e9)
 
 spawn(function()
 	while wait() do
@@ -330,12 +330,12 @@ end
 function Shoot()
     HOLD = true
         kan = Instance.new("Sound", Character)
-        kan.Volume = 10
+        kan.Volume = 1
         kan.Looped = true
         kan.TimePosition = 0
-        kan.PlaybackSpeed = 1
+        kan.PlaybackSpeed = 10
         kan.Pitch = 1
-        kan.SoundId = "rbxassetid://3145784977"
+        kan.SoundId = "rbxassetid://5906487834"
         kan.Name = "bang"
         kan:Play()
         while HOLD == true do
